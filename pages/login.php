@@ -5,6 +5,7 @@
  <?php
 
     require '../conf/init.php' ;
+    $msg = "SMK PGRI 2 TAMAN";
 
     if (isset($_POST['simpan'])){
         $username = $_POST['username'] ;

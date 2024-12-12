@@ -1,5 +1,5 @@
 <?php
 
-    $base_url = "http://localhost/personal/simpel-kasir-master/" ;
+    $base_url = "http://localhost/personal/TempPOS/" ;
 
 ?>
