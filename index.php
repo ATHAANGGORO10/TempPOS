@@ -129,7 +129,7 @@
                                                             &quot;<?= $row['Des'] ? $row['Des'] : '' ; ?>&quot;
                                                         ],
                                                         &quot;backgroundColor&quot;:&quot;rgba(78, 115, 223, 0.05)&quot;,
-                                                        &quot;borderColor&quot;:&quot;rgba(78, 115, 223, 1)&quot;}]},
+                                                        &quot;borderColor&quot;:&quot;rgb(25, 102, 4)&quot;}]},
                                                         &quot;options&quot;:{
                                                             &quot;maintainAspectRatio&quot;:false,
                                                             &quot;legend&quot;:{

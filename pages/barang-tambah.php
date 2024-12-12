@@ -5,6 +5,7 @@
  <?php
 
     require '../conf/init.php' ;
+    $msg = "TAMBAHKAN DATA BARANG" ;
     cek();
 
     if (isset($_POST['simpan'])){
