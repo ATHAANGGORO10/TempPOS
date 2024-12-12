@@ -22,7 +22,7 @@
 
         if (empty($trapelanggan)){
             $msg = 'Harap masukkan data dengan benar' ;
-        } else if (count($cart) == 0){
+        } else if (empty($cart)) {
             $msg = 'Keranjang Kosong' ;
         } else {
             
@@ -133,8 +133,7 @@
                                                 </thead>
                                                 <tbody>
                                                     <?php
-
-                                                    $cart = $_SESSION['cart'];
+                                                    $cart = isset($_SESSION['cart']) ? $_SESSION['cart'] : [];
                                                     $total = 0 ;
 
                                                     if ($cart){
@@ -149,6 +148,12 @@
                                                             <?php
                                                             $total += $val['proharga'] * $val['jumlah'] ;
                                                         }
+                                                    } else {
+                                                      ?>
+                                                        <tr>
+                                                          <td colspan="4" class="text-center">Keranjang Kosong</td></td>
+                                                        </tr>
+                                                      <?php
                                                     }
 
                                                     ?>
