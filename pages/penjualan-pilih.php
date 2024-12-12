@@ -4,6 +4,7 @@
  -->
  <?php
     require '../conf/init.php' ;
+    $msg = "DATA PRODUK & BARANG";
     cek();
 
     // mengecek adanya produk yang dipilih - start
