@@ -55,7 +55,7 @@
                     <li class="nav-item" role="presentation"><a class="nav-link" href="barang.php"><i class="icon-layers" style="font-size: 20px;"></i><span style="margin-left: 10px;font-size: 18px;">Data Barang</span></a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link active" href="penjualan.php"><i class="icon-basket" style="font-size: 20px;"></i><span style="margin-left: 10px;font-size: 18px;">Penjualan</span></a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="laporan.php"><i class="icon-list" style="font-size: 20px;"></i><span style="font-size: 18px;margin-left: 10px;">Laporan</span></a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="logout.php"><i class="icon-list" style="font-size: 20px;"></i><span style="font-size: 18px;margin-left: 10px;">Logout</span></a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="logout.php"><i class="fas fa-door-open" style="font-size: 20px;"></i><span style="font-size: 18px;margin-left: 10px;">Logout</span></a></li>
                     <li class="nav-item" role="presentation"></li>
                 </ul>
             </div>
