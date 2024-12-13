@@ -1,5 +1,5 @@
-original source code
-Profile : https://github.com/msaifa
+## Original sourcode <br>
+Profile : https://github.com/msaifa <br>
 sourcode : https://github.com/msaifa/simpel-kasir
 
 # Aplikasi Kasir Simpel
